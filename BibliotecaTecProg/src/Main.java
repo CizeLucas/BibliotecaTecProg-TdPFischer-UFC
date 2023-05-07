@@ -8,7 +8,8 @@ public class Main {
 		  >>> Minhas considerações e coisas que não fiz ou não ficaram muito boas:
 		  
 			1) Variáveis das subclases das classes abstratas Clientes e Publicações não foram privadas 
-		(e por isso não foi usado metodos get e set) por falta de tempo;
+		(e por isso não foi usado metodos get e set) por falta de tempo 
+		(mas as das classes Biblioteca e Emprestimos foram privadas hehe);
 		
 			2) Implementação do limite de TPs e doação de livros para a biblioteca foi ruim/mal feita;
 			
