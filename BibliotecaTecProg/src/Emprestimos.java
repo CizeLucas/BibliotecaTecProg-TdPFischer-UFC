@@ -56,13 +56,13 @@ public class Emprestimos {
 	}
 	
 	
-	//sobreescrevento metodo .equals() do pai Objetc
-	public boolean equals(Object obj) {
-		Emprestimos emp = (Emprestimos) obj;
-		return ( this.cliente.nome.equals(emp.cliente.nome) && 
-				this.publicacao.titulo.equals(emp.publicacao.titulo) &&
-				this.publicacao.id == emp.publicacao.id);
-	}
+	//sobreescrevento metodo .equals() do pai Object
+//	public boolean equals(Object obj) {
+//		Emprestimos emp = (Emprestimos) obj;
+//		return ( this.cliente.nome.equals(emp.cliente.nome) && 
+//				this.publicacao.titulo.equals(emp.publicacao.titulo) &&
+//				this.publicacao.id == emp.publicacao.id);
+//	}
 
 	public Clientes getCliente() {
 		return cliente;

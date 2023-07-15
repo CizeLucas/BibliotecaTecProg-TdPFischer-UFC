@@ -21,10 +21,10 @@ public abstract class Clientes {
 	
 	public abstract void atualizarTPs(Publicacoes publicacao);
 	
-	public boolean equals(Object obj) {
-		Clientes clienteTemp = (Clientes) obj;
-		return ( this.nome.equals(clienteTemp.nome) && 
-				this.matricula == clienteTemp.matricula );
-	}
+//	public boolean equals(Object obj) {
+//		Clientes clienteTemp = (Clientes) obj;
+//		return ( this.nome.equals(clienteTemp.nome) && 
+//				this.matricula == clienteTemp.matricula );
+//	}
 	
 }
